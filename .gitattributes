@@ -1,0 +1,15 @@
+* text=auto
+*.css linguist-vendored
+*.scss linguist-vendored
+
+# Denote all files that are truly binary and should not be modified.
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.mo binary
+*.pdf binary
+*.woff binary
+*.ttf binary
+*.eot binary
+*.xlsx binary

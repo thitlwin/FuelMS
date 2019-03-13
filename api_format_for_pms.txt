@@ -1,0 +1,18 @@
+(1) Device's electrical insert api
+----------------xx-----------------
+method	=> post
+url		=> http://powerms.dev:8000/api/v1/insert_device_data
+params	=>
+		device_id=200
+		electrical_data={"A":100,"A1":100,"A2":100,"A3":100,"VLL":100,"VLN":100,"V12":100,"V23":100,"V31":100,"V1":100,"V2":100,"V3":100,"W":100,"W1":100,"W2":100,"W3":100,"VAR":100,"VAR1":100,"VAR2":100,"VAR3":100,"VA":100,"VA1":100,"VA2":100,"VA3":100,"PF":100,"PF1":100,"PF2":100,"PF3":100,"F":100,"FVAh":100,"FWh":100,"FVARh":100,"RVAh":100,"RWh":100,"RVARh":100,"OnH":100,"FRun":100,"RRun":100,"INTR":100,"PD":100,"RD":100,"MaxMD":100,"MaxDM":100}
+
+
+
+(2) mail send api for alerting fire cut-off
+--------------------xxx-------------------
+method 	=> get
+url		=> http://powerms.dev:8000/api/v1/send_mail
+params	=> receiver_type_id=2
+			device_id=1
+			device_name=Testing
+			message="Message"
